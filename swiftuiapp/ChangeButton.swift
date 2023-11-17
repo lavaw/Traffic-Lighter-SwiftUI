@@ -20,7 +20,7 @@ struct ChangeButton: View {
                 .foregroundColor(Color.white)
         }
         .padding()
-        .frame(width: 200, height: 100)
+        .frame(width: 200, height: 70)
         .background(Color(.blue))
             .cornerRadius(20)
             .overlay(
