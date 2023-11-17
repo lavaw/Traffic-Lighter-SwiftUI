@@ -11,6 +11,8 @@
 		EE146FF02B079338000209E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE146FEF2B079338000209E1 /* ContentView.swift */; };
 		EE146FF22B07933B000209E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE146FF12B07933B000209E1 /* Assets.xcassets */; };
 		EE146FF52B07933B000209E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE146FF42B07933B000209E1 /* Preview Assets.xcassets */; };
+		EE146FFC2B079EDB000209E1 /* ColorLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE146FFB2B079EDB000209E1 /* ColorLight.swift */; };
+		EE146FFE2B079F81000209E1 /* ChangeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE146FFD2B079F81000209E1 /* ChangeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EE146FEF2B079338000209E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE146FF12B07933B000209E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE146FF42B07933B000209E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE146FFB2B079EDB000209E1 /* ColorLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorLight.swift; sourceTree = "<group>"; };
+		EE146FFD2B079F81000209E1 /* ChangeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EE146FED2B079338000209E1 /* swiftuiappApp.swift */,
 				EE146FEF2B079338000209E1 /* ContentView.swift */,
+				EE146FFB2B079EDB000209E1 /* ColorLight.swift */,
+				EE146FFD2B079F81000209E1 /* ChangeButton.swift */,
 				EE146FF12B07933B000209E1 /* Assets.xcassets */,
 				EE146FF32B07933B000209E1 /* Preview Content */,
 			);
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE146FFC2B079EDB000209E1 /* ColorLight.swift in Sources */,
 				EE146FF02B079338000209E1 /* ContentView.swift in Sources */,
 				EE146FEE2B079338000209E1 /* swiftuiappApp.swift in Sources */,
+				EE146FFE2B079F81000209E1 /* ChangeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
